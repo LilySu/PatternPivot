@@ -1,3 +1,6 @@
+.DS_Store
+subtitles/
+screenshots/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
