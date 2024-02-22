@@ -1,0 +1,1 @@
+### Run these scripts once to create Dynamodb tables for the first time
