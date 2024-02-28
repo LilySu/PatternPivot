@@ -7,16 +7,23 @@ PatternPivot emerged from the necessity to help content creators fine-tune their
 PatternPivot is a video generation service that focuses on enabling creators to transform their existing videos into catchy, engaging content in various short-term formats and variations quickly. With LLM-powered transcription at its core, PatternPivot allows for the remixing of video segments, ensuring the new content is primed for audience retention. The innovation lies in its ability to adapt to the competitive content arena, giving creators a much-needed edge.
 
 ## How PatternPivot Was Built
-The architecture of PatternPivot is the culmination of API integrations, machine learning models, and semantic search technologies. Our system architecture involves:
+The architecture of PatternPivot is the culmination of API integrations, LLM's, a local open-source vector database and free open-source embeddings and semantic search techniques. 
+
+### Our system architecture:
 
 ![Video Generation Systems Architecture Diagram](Generating_Video_Systems_Diagram.png)
 
-- Utilizing the YouTube Data API v3 to fetch video content.
+- The YouTube Data API v3 is used to fetch video content.
 - Taking screenshots with OpenAI's Dall-e to generate new images.
-- Retrieving video statistics for further processing and storing JSON in Google Drive.
-- Leveraging Sentence Transformers hosted on a Milvus Local server in Docker for semantic searches.
-- Editing and generating new video transcripts, ensuring they are refined enough for final use.
-- Converting transcripts to speech to create new video content.
+- Retrieving video statistics for further processing and storing JSON in AWS DynamoDB currently with the intention of utlizing Google Cloud JSON API in the future.
+- The vector database used is the open source version of Milvus Local server in Docker. Embedding conversion are designed to be limited to only a select corpus of transcripts as needed by topic stored locally in the server spun up in localhost by the Milvus docker container. 
+- Chunking and retrieval augmented generation (RAG) are achieved using LangChain.
+- New video transcripts are refined through iterative LLM prompting.
+- LLM embeddings are using HuggingFace-hosted "WhereIsAI/UAE-Large-V1" and/or "llmrails/ember-v1" 
+- Embeddings retrieval are using either nearest neighbors or cosine similarity.
+- OpenAI API's Dall-e is prompted using screencaptures of youtube videos using selenium.
+- The only paid API usage for this initiative would be generating images using Dall-e through OpenAI's API and until DynamoDB hits over 25GB or Google Cloud JSON API hitting it's 1 TB limit. 
+- Converting transcripts to speech to create new video content will involve Coqui, an open source python module.
 
 The iterative development process was key, focusing on prototypes and refining our algorithms for heightened accuracy. The backend infrastructure is cloud-based, scalable, and designed for efficient processing and a smooth user experience.
 
