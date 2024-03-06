@@ -31,29 +31,20 @@ The iterative development process was key, focusing on prototypes and refining o
 ## Microservices
 ### Microservice 1
 Youtube request responses to DynamoDB
-googleapiclient, boto3
+ - googleapiclient, boto3
 ### Microservice 2
-Search DynamoDB for a select batch of VideoIds
+Search DynamoDB for a unique batch of VideoIds to use as a base to generate new audio
+ - Strategy can include LLM's
+ - Current strategy randomly shuffles through a given list, existing videos comparing sets of videos with data stored in storage_videoId.py
 Extract the audio from the video by converting each VideoId to audio .mp4's
 Convert .mp4 audio into .wav audio file formats
 Combine batch of .wav audio into a newly generated original audio .wav
-pytube, pydub, musicGen
+ - pytube, pydub, musicGen, nest_asyncio
 ### Microservice 3
 Combine audio .wav with image or video
 Save in a queue
-moviepy
+ - moviepy
 ### Microservice 4
 QA videos?
 Upload videos from a folder to Youtube
-googleapiclient, google.oauth2 or third party tool
-
-
-
-## Lessons Learned
-The PatternPivot journey has been a deep dive into the significance of text data in content creation and the transformative power of AI in the creative domain. 
-
-## The Future of PatternPivot
-Our roadmap includes advancing PatternPivot with sophisticated video generation capabilities. We envision PatternPivot as the ultimate tool for creators who strive to maximize their content's effectiveness and widen their reach.
-
-## Conclusion
-PatternPivot stands at the forefront of content optimization, empowering creators with AI-driven tools to craft content that resonates and retains. With a commitment to continual improvement, PatternPivot is poised to enhance productivity in the content creation domain.
+ - googleapiclient, google.oauth2 or third party tool
