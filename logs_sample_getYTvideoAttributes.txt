@@ -1,0 +1,927 @@
+VideoId ICMfseFhE-E is already in the database
+VideoId wkse4PPxkk4 is already in the database
+VideoId APvLO3uXLnE is already in the database
+VideoId hN-RsF17_Mk is already in the database
+VideoId TP2gb2fSYXY is already in the database
+VideoId 149tYQEhqvY is already in the database
+VideoId p5Num5Pg8yo is already in the database
+VideoId oeQfRtiY-ZM is already in the database
+{
+    "kind": "youtube#video",
+    "etag": "U5wX2cF8cPzf_A1jECiVxRRp_VM",
+    "videoId": "DWOHcGF1Tmc",
+    "publishedAt": "2017-01-28T17:20:57Z",
+    "channelId": "UCjW-3doUmNsyY5aLQHLiNXg",
+    "title": "Guided Meditation for Children | Your Secret Treehouse | Relaxation for Kids",
+    "description": "Download our App for free: Apple iOS: https://apps.apple.com/us/app/new-horizon-kids-meditation/id1457179117#? Google Play ...",
+    "url": "https://i.ytimg.com/vi/DWOHcGF1Tmc/hqdefault.jpg",
+    "width": 480,
+    "height": 360,
+    "channelTitle": "New Horizon - Meditation & Sleep Stories",
+    "liveBroadcastContent": "none",
+    "publishTime": "2017-01-28T17:20:57Z",
+    "id": "DWOHcGF1Tmc",
+    "duration": "PT16M15S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "projection": "rectangular",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": true,
+    "viewCount": "5434221",
+    "likeCount": "28687",
+    "favoriteCount": "0",
+    "commentCount": "0",
+    "topicCategories": [
+        "https://en.wikipedia.org/wiki/Lifestyle_(sociology)",
+        "https://en.wikipedia.org/wiki/Religion"
+    ]
+}
+Successfully inserted api results into DynamoDB  at 2024-03-04 23:07:12
+ {'ResponseMetadata': {'RequestId': 'TK8L9LAJUDPN9SV4LIMU9CF413VV4KQNSO5AEMVJF66Q9ASUAAJG', 'HTTPStatusCode': 200, 'HTTPHeaders': {'server': 'Server', 'date': 'Tue, 05 Mar 2024 07:07:12 GMT', 'content-type': 'application/x-amz-json-1.0', 'content-length': '2', 'connection': 'keep-alive', 'x-amzn-requestid': 'TK8L9LAJUDPN9SV4LIMU9CF413VV4KQNSO5AEMVJF66Q9ASUAAJG', 'x-amz-crc32': '2745614147'}, 'RetryAttempts': 0}}
+VideoId aZoZguD_UwE is already in the database
+VideoId ausxoXBrmWs is already in the database
+VideoId TCoUnEPeuQk is already in the database
+VideoId ztLkLKMN5L8 is already in the database
+VideoId xWDTVnylcOc is already in the database
+VideoId 2K4T9HmEhWE is already in the database
+VideoId q5thMTntbOY is already in the database
+VideoId 8vMEoPgg-PE is already in the database
+VideoId CscxGprl1yw is already in the database
+VideoId 1ZP-TMr984s is already in the database
+VideoId j0GuDgxHjrk is already in the database
+VideoId DulNz2CkoHI is already in the database
+VideoId 7WnZisfYMsE is already in the database
+VideoId HfVXwA6L154 is already in the database
+VideoId VRj7Y4rNq_c is already in the database
+VideoId Hpjirzg0ub4 is already in the database
+VideoId a2pZOIzbp7Q is already in the database
+VideoId i7YsFn22F1g is already in the database
+VideoId 3YuOMmxbc9M is already in the database
+{
+    "kind": "youtube#video",
+    "etag": "Pig8YLQie1KEIQp85CVKDShuqwQ",
+    "videoId": "_ZeEPo8w-n8",
+    "publishedAt": "2021-07-09T05:00:11Z",
+    "channelId": "UCFztZXwwpkLXAT2IceLT1oA",
+    "title": "\ud83e\uddd8\ud83c\udffb\u200d\u2640\ufe0f Guided Imagery Meditation: The Beach \ud83c\udfdd\ud83c\udfd6",
+    "description": "Welcome back to my Guided Meditation Series! This is one of my favorite types of meditation - the guided imagery meditation ...",
+    "url": "https://i.ytimg.com/vi/_ZeEPo8w-n8/hqdefault.jpg",
+    "width": 480,
+    "height": 360,
+    "channelTitle": "Dr. Jennifer Andrews (Dr. Jen)",
+    "liveBroadcastContent": "none",
+    "publishTime": "2021-07-09T05:00:11Z",
+    "id": "_ZeEPo8w-n8",
+    "duration": "PT10M16S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "projection": "rectangular",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "viewCount": "78338",
+    "likeCount": "864",
+    "favoriteCount": "0",
+    "commentCount": "38",
+    "topicCategories": [
+        "https://en.wikipedia.org/wiki/Lifestyle_(sociology)"
+    ],
+    "actualStartTime": "2021-07-09T05:00:11Z",
+    "actualEndTime": "2021-07-09T05:12:23Z",
+    "scheduledStartTime": "2021-07-09T05:00:00Z"
+}
+Successfully inserted api results into DynamoDB  at 2024-03-04 23:07:14
+ {'ResponseMetadata': {'RequestId': 'Q3GMBIIVGMC5HGVGRS9EIAVQDJVV4KQNSO5AEMVJF66Q9ASUAAJG', 'HTTPStatusCode': 200, 'HTTPHeaders': {'server': 'Server', 'date': 'Tue, 05 Mar 2024 07:07:14 GMT', 'content-type': 'application/x-amz-json-1.0', 'content-length': '2', 'connection': 'keep-alive', 'x-amzn-requestid': 'Q3GMBIIVGMC5HGVGRS9EIAVQDJVV4KQNSO5AEMVJF66Q9ASUAAJG', 'x-amz-crc32': '2745614147'}, 'RetryAttempts': 0}}
+VideoId ZKL6MKYRH8g is already in the database
+VideoId CDnEKUDNwMM is already in the database
+VideoId 8KcOwEj_9EE is already in the database
+{
+    "kind": "youtube#video",
+    "etag": "az4d9ZLGWZWZGjKoNnowjeQGuSc",
+    "videoId": "av8G5pgiWQU",
+    "publishedAt": "2020-04-09T22:25:41Z",
+    "channelId": "UCciA8PsPm3Z5E5vlKEct_lg",
+    "title": "Guided Meditation for Deep Sleep, Healing and Relaxation",
+    "description": "Scott Ste Marie is a Mindfulness Practitioner, Coach and Mentor. Through his lived experience with depression and anxiety he ...",
+    "url": "https://i.ytimg.com/vi/av8G5pgiWQU/hqdefault.jpg",
+    "width": 480,
+    "height": 360,
+    "channelTitle": "Scott Ste Marie",
+    "liveBroadcastContent": "none",
+    "publishTime": "2020-04-09T22:25:41Z",
+    "id": "av8G5pgiWQU",
+    "duration": "PT11M7S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "projection": "rectangular",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "license": "creativeCommon",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "viewCount": "84060",
+    "likeCount": "837",
+    "favoriteCount": "0",
+    "commentCount": "39",
+    "topicCategories": [
+        "https://en.wikipedia.org/wiki/Health",
+        "https://en.wikipedia.org/wiki/Lifestyle_(sociology)"
+    ]
+}
+Successfully inserted api results into DynamoDB  at 2024-03-04 23:07:16
+ {'ResponseMetadata': {'RequestId': 'JICKI508M7VV24FM7MCLIDO523VV4KQNSO5AEMVJF66Q9ASUAAJG', 'HTTPStatusCode': 200, 'HTTPHeaders': {'server': 'Server', 'date': 'Tue, 05 Mar 2024 07:07:16 GMT', 'content-type': 'application/x-amz-json-1.0', 'content-length': '2', 'connection': 'keep-alive', 'x-amzn-requestid': 'JICKI508M7VV24FM7MCLIDO523VV4KQNSO5AEMVJF66Q9ASUAAJG', 'x-amz-crc32': '2745614147'}, 'RetryAttempts': 0}}
+VideoId krBvzDlL0mM is already in the database
+VideoId nIb2LbqHtY4 is already in the database
+VideoId Rx5X-fo_fEI is already in the database
+VideoId Yv--OcsSKQ0 is already in the database
+VideoId ZsJ9utjAqZU is already in the database
+VideoId PttMV1xRJv4 is already in the database
+VideoId lu_cLaBTXio is already in the database
+VideoId LDs7jglje_U is already in the database
+VideoId gqy8mmwDZk8 is already in the database
+VideoId JDpULX1MnPI is already in the database
+VideoId GXxweu9UgBI is already in the database
+VideoId zyUy9w953L0 is already in the database
+VideoId 67SeR3LxtdI is already in the database
+VideoId 8zfQvchPkqQ is already in the database
+VideoId eZCCOur42sw is already in the database
+VideoId uOy3ImZnXKY is already in the database
+VideoId vAfo8JPvNQI is already in the database
+VideoId PFY_ThmPf3k is already in the database
+VideoId HNab2YqCCiM is already in the database
+VideoId VZ_wdeog5Ek is already in the database
+VideoId ZgPHetPG4MY is already in the database
+VideoId doLvegQd4L0 is already in the database
+VideoId TP2gb2fSYXY is already in the database
+VideoId ZizK2yBnncM is already in the database
+VideoId bAl8OnjXO8A is already in the database
+VideoId luL1T1WQC2k is already in the database
+VideoId ztTexqGQ0VI is already in the database
+VideoId _3fvhTO3pLM is already in the database
+VideoId CwC_x3zsEjA is already in the database
+VideoId n9ja1Wqkp1U is already in the database
+VideoId svVDEkBQxpU is already in the database
+VideoId j0GuDgxHjrk is already in the database
+VideoId _J_dKTUp8rY is already in the database
+VideoId tMc9uxDYGJY is already in the database
+VideoId caq8XpjAswo is already in the database
+VideoId tI16SNCtMrQ is already in the database
+VideoId 9SQwSqAQ9UQ is already in the database
+VideoId ONLFEkb7vTc is already in the database
+VideoId FZXVix4TNOI is already in the database
+VideoId vcRyofxBnFo is already in the database
+VideoId PvAEG5muUnU is already in the database
+{
+    "kind": "youtube#video",
+    "etag": "jsy9ztDuuzOpUC4Xe77rlxCHrwI",
+    "videoId": "42CPOtE8pGU",
+    "publishedAt": "2022-10-08T12:47:09Z",
+    "channelId": "UCONxz4-oYekLXBsjPDvAnHQ",
+    "title": "I AM The Creator Meditation - Edward Art",
+    "description": "Reddit To Read My Work: https://www.reddit.com/r/EdwardArtSupplyHands/ Instagram: ...",
+    "url": "https://i.ytimg.com/vi/42CPOtE8pGU/hqdefault.jpg",
+    "width": 480,
+    "height": 360,
+    "channelTitle": "Edward Art",
+    "liveBroadcastContent": "none",
+    "publishTime": "2022-10-08T12:47:09Z",
+    "id": "42CPOtE8pGU",
+    "duration": "PT11M9S",
+    "dimension": "2d",
+    "definition": "sd",
+    "caption": "false",
+    "licensedContent": true,
+    "projection": "rectangular",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "viewCount": "234081",
+    "likeCount": "4672",
+    "favoriteCount": "0",
+    "commentCount": "237",
+    "topicCategories": [
+        "https://en.wikipedia.org/wiki/Lifestyle_(sociology)",
+        "https://en.wikipedia.org/wiki/Religion"
+    ]
+}
+Successfully inserted api results into DynamoDB  at 2024-03-04 23:07:18
+ {'ResponseMetadata': {'RequestId': 'SDLIOKE2P0ILU2KVAJ6H6D1EJFVV4KQNSO5AEMVJF66Q9ASUAAJG', 'HTTPStatusCode': 200, 'HTTPHeaders': {'server': 'Server', 'date': 'Tue, 05 Mar 2024 07:07:18 GMT', 'content-type': 'application/x-amz-json-1.0', 'content-length': '2', 'connection': 'keep-alive', 'x-amzn-requestid': 'SDLIOKE2P0ILU2KVAJ6H6D1EJFVV4KQNSO5AEMVJF66Q9ASUAAJG', 'x-amz-crc32': '2745614147'}, 'RetryAttempts': 0}}
+VideoId H9Hnisaqlns is already in the database
+VideoId yvo_uCfn0V8 is already in the database
+VideoId EIRabf12InE is already in the database
+VideoId 6arfMc9Aj4k is already in the database
+VideoId i1pBHh-hSGU is already in the database
+VideoId YD5W5eZy90c is already in the database
+VideoId 9UyqInPfmrc is already in the database
+{
+    "kind": "youtube#video",
+    "etag": "EIVPyXyAWArU-2YCitIbFZ8ya2o",
+    "videoId": "wXsxwIJnUJk",
+    "publishedAt": "2020-06-06T21:00:11Z",
+    "channelId": "UCMlGmHokrQRp-RaNO7aq4Uw",
+    "title": "10 Mind-Blowing Benefits of Meditation",
+    "description": "These benefits of meditation, specifically mindfulness, can reduce anxiety, improve your health, and make you happier. The power ...",
+    "url": "https://i.ytimg.com/vi/wXsxwIJnUJk/hqdefault.jpg",
+    "width": 480,
+    "height": 360,
+    "channelTitle": "TopThink",
+    "liveBroadcastContent": "none",
+    "publishTime": "2020-06-06T21:00:11Z",
+    "id": "wXsxwIJnUJk",
+    "duration": "PT10M56S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "true",
+    "licensedContent": true,
+    "projection": "rectangular",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "viewCount": "307698",
+    "likeCount": "8889",
+    "favoriteCount": "0",
+    "commentCount": "276",
+    "topicCategories": [
+        "https://en.wikipedia.org/wiki/Health",
+        "https://en.wikipedia.org/wiki/Knowledge"
+    ]
+}
+Successfully inserted api results into DynamoDB  at 2024-03-04 23:07:20
+ {'ResponseMetadata': {'RequestId': '827PO33KB9RGDJIV99OG582K1NVV4KQNSO5AEMVJF66Q9ASUAAJG', 'HTTPStatusCode': 200, 'HTTPHeaders': {'server': 'Server', 'date': 'Tue, 05 Mar 2024 07:07:20 GMT', 'content-type': 'application/x-amz-json-1.0', 'content-length': '2', 'connection': 'keep-alive', 'x-amzn-requestid': '827PO33KB9RGDJIV99OG582K1NVV4KQNSO5AEMVJF66Q9ASUAAJG', 'x-amz-crc32': '2745614147'}, 'RetryAttempts': 0}}
+VideoId uyJNLpPGSDw is already in the database
+VideoId I6jP5oLdKpY is already in the database
+VideoId DZbk6HhF7GE is already in the database
+VideoId _1h-zizAGsc is already in the database
+VideoId MFxlK1ZvOmA is already in the database
+VideoId cTyGbmXn78w is already in the database
+VideoId eKiY6LjFSqo is already in the database
+VideoId 3CfCKZfojd0 is already in the database
+VideoId C_xsXnRd_uc is already in the database
+VideoId C5L8Z3qA1DA is already in the database
+VideoId jfKEAiwrgeY is already in the database
+VideoId nlEoLYREbXo is already in the database
+VideoId JslvBcIVtDg is already in the database
+VideoId VUjiXcfKBn8 is already in the database
+VideoId qANaxInPFh0 is already in the database
+VideoId zSkFFW--Ma0 is already in the database
+VideoId 2l8WD4U4KMk is already in the database
+VideoId JPxRhc2IdlA is already in the database
+VideoId LiNxnsPSrJg is already in the database
+VideoId kC6so_Z5mGg is already in the database
+VideoId o89px3RWFS8 is already in the database
+VideoId UJevAyL9saw is already in the database
+VideoId v1nID6ZSB-c is already in the database
+VideoId 2TePAocURLk is already in the database
+VideoId _GQWHw0OcaA is already in the database
+VideoId mJYmJlc1DmE is already in the database
+VideoId XyUOgHVsDiY is already in the database
+VideoId KRm-Byqt9z4 is already in the database
+VideoId D1eiNf6j_GY is already in the database
+VideoId GX8TPloZLRQ is already in the database
+VideoId Oh5ii6R6LTM is already in the database
+VideoId qN5HN-cGzjE is already in the database
+VideoId 0ItYBQK2yHw is already in the database
+VideoId MZKKeKTa-cU is already in the database
+VideoId Tt_zQcNbpg8 is already in the database
+VideoId ACHHe0yFlw4 is already in the database
+{
+    "kind": "youtube#video",
+    "etag": "dLB0BzmOLg-OVuvI4oOPohzkvlg",
+    "videoId": "aQ59ma9XpR4",
+    "publishedAt": "2023-01-18T12:00:02Z",
+    "channelId": "UCu_mPlZbomAgNzfAUElRL7w",
+    "title": "Safely Connect with your Body Somatic Meditation | Mindful Movement",
+    "description": "If you have experienced chronic pain or past trauma, your body may not feel like a safe place to be, whether you recognize this ...",
+    "url": "https://i.ytimg.com/vi/aQ59ma9XpR4/hqdefault.jpg",
+    "width": 480,
+    "height": 360,
+    "channelTitle": "The Mindful Movement",
+    "liveBroadcastContent": "none",
+    "publishTime": "2023-01-18T12:00:02Z",
+    "id": "aQ59ma9XpR4",
+    "duration": "PT13M20S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "projection": "rectangular",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "viewCount": "61130",
+    "likeCount": "1592",
+    "favoriteCount": "0",
+    "commentCount": "53",
+    "topicCategories": [
+        "https://en.wikipedia.org/wiki/Health",
+        "https://en.wikipedia.org/wiki/Lifestyle_(sociology)"
+    ]
+}
+Successfully inserted api results into DynamoDB  at 2024-03-04 23:07:22
+ {'ResponseMetadata': {'RequestId': 'AHPNAP66A7BIQTP1VFHTQ0RLL7VV4KQNSO5AEMVJF66Q9ASUAAJG', 'HTTPStatusCode': 200, 'HTTPHeaders': {'server': 'Server', 'date': 'Tue, 05 Mar 2024 07:07:22 GMT', 'content-type': 'application/x-amz-json-1.0', 'content-length': '2', 'connection': 'keep-alive', 'x-amzn-requestid': 'AHPNAP66A7BIQTP1VFHTQ0RLL7VV4KQNSO5AEMVJF66Q9ASUAAJG', 'x-amz-crc32': '2745614147'}, 'RetryAttempts': 0}}
+VideoId qtapT_dp5NQ is already in the database
+VideoId JtbxaGh7k4M is already in the database
+VideoId RUIi4c09HE0 is already in the database
+VideoId q_L_DiqoRn4 is already in the database
+VideoId 5J2llsogT5Q is already in the database
+VideoId vMfyLaQFimY is already in the database
+VideoId 4RtVT7Cfgp4 is already in the database
+VideoId qtapT_dp5NQ is already in the database
+VideoId JtbxaGh7k4M is already in the database
+VideoId RUIi4c09HE0 is already in the database
+VideoId q_L_DiqoRn4 is already in the database
+VideoId vMfyLaQFimY is already in the database
+{
+    "kind": "youtube#video",
+    "etag": "BBc_MUJCuNsS5xyKcAZoKBTxgn0",
+    "videoId": "5luvQp--B8U",
+    "publishedAt": "2022-02-15T00:02:14Z",
+    "channelId": "UCytzR1tkUYoF5DjGYiYkhGQ",
+    "title": "\uc790\uc560 \uba85\uc0c1 | \ud2f1\ub0ab\ud55c \uba85\uc0c1 (\uc601\uc5b4 \uc74c\uc131, \ud55c\uae00\uc790\ub9c9)",
+    "description": "\ud50c\ub7fc\ube4c\ub9ac\uc9c0 \uc571 https://plumvillage.app/ \uc744 \uc704\ud574 \ud2b9\ubcc4\ud788 \ud3b8\uc9d1\ub41c \ud2f1\ub0ab\ud55c \uc2a4\ub2d8\uaed8\uc11c \uc548\ub0b4\ud558\ub294 \uc790\uc560 \uba85\uc0c1\uc785\ub2c8\ub2e4. (\uc601\uc5b4 \uc74c\uc131, \ud55c\uae00\uc790\ub9c9)\n\n\ucd9c\ucc98: Practices for the New Year\nhttps://tnhaudio.org/2010/01/01/practices-for-the-new-year/\n\n\uc601\uc5b4 \uc74c\uc131, \ud55c\uae00 \uc790\ub9c9, \uc885\uc18c\ub9ac \uc5c6\uc74c.\n\n\uc774 \ub0b4\uc6a9\uc740 2009\ub144 12\uc6d4 31\uc77c\uc5d0 \ud2f1\ub0ab\ud55c \uc2a4\ub2d8\uaed8\uc11c \ud50c\ub7fc\ube4c\ub9ac\uc9c0\uc5d0 \ubaa8\uc778 \ucee4\ubba4\ub2c8\ud2f0\uc5d0\uac8c \uc120\ubb3c\ud558\uc2e0 \"\uc0c8\ud574 \uc2dc\uc791\uc744 \uc704\ud55c 3\uc77c \uc218\ub828\"\uacfc \ubc95\ubb38\uc5d0\uc11c \ubc1c\ucdcc\ud55c \uac83\uc785\ub2c8\ub2e4.\n\n\n\ud55c\uae00 \ubc88\uc5ed \ud14d\uc2a4\ud2b8: \n\n\"\uc790\uc560(Metta) \uba85\uc0c1\"\nhttps://m.blog.naver.com/syhan34/221636239466\n\n\"\uc0c8\ud574 \uc2dc\uc791\uc744 \uc704\ud55c 3\uc77c \uc218\ub828\"\nhttps://m.blog.naver.com/syhan34/221750384616\n\n\n~~~\n\ubb34\ub8cc \ud50c\ub7fc\ube4c\ub9ac\uc9c0 \uc571 \ub2e4\uc6b4\ub85c\ub4dc: https://plumvillage.app/ \n\uace0\ub9d9\uc2b5\ub2c8\ub2e4! \ud83d\ude4f\n\n\ud55c\uad6d\uc5b4 \uc790\ub9c9: \ud55c\uad6d \uc8fc\uc758\uae4a\uc74c \uc218\ub828 \uc0c1\uac00",
+    "url": "https://i.ytimg.com/vi/5luvQp--B8U/hqdefault.jpg",
+    "width": 480,
+    "height": 360,
+    "channelTitle": "Plum Village App",
+    "liveBroadcastContent": "none",
+    "publishTime": "2022-02-15T00:02:14Z",
+    "id": "5luvQp--B8U",
+    "duration": "PT17M45S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "true",
+    "licensedContent": false,
+    "projection": "rectangular",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "viewCount": "263055",
+    "likeCount": "4291",
+    "favoriteCount": "0",
+    "commentCount": "145",
+    "topicCategories": [
+        "https://en.wikipedia.org/wiki/Religion"
+    ],
+    "actualStartTime": "2022-02-15T00:02:14Z",
+    "actualEndTime": "2022-02-15T00:21:51Z",
+    "scheduledStartTime": "2022-02-15T00:01:47Z"
+}
+Successfully inserted api results into DynamoDB  at 2024-03-04 23:07:24
+ {'ResponseMetadata': {'RequestId': '1L3PNMUURQPEQJ31SPQK5B62C3VV4KQNSO5AEMVJF66Q9ASUAAJG', 'HTTPStatusCode': 200, 'HTTPHeaders': {'server': 'Server', 'date': 'Tue, 05 Mar 2024 07:07:24 GMT', 'content-type': 'application/x-amz-json-1.0', 'content-length': '2', 'connection': 'keep-alive', 'x-amzn-requestid': '1L3PNMUURQPEQJ31SPQK5B62C3VV4KQNSO5AEMVJF66Q9ASUAAJG', 'x-amz-crc32': '2745614147'}, 'RetryAttempts': 0}}
+VideoId cTyGbmXn78w is already in the database
+{
+    "kind": "youtube#video",
+    "etag": "rJSUjz_trzk4IREeXEg608lqoRk",
+    "videoId": "CvF9AEe-ozc",
+    "publishedAt": "2016-02-13T20:29:37Z",
+    "channelId": "UC547M_JrY273-0ZU3aMDfMA",
+    "title": "\ud83d\ude0a \ud83c\udf3a Breath Meditation for Kids \ud83d\ude0a \u2764\ufe0f\u200d Mindfulness for Kids",
+    "description": "A calming breath meditation designed to introduce kids to mindfulness. Kids imagine a sail boat rising and falling over waves as ...",
+    "url": "https://i.ytimg.com/vi/CvF9AEe-ozc/hqdefault.jpg",
+    "width": 480,
+    "height": 360,
+    "channelTitle": "Meditation Channel",
+    "liveBroadcastContent": "none",
+    "publishTime": "2016-02-13T20:29:37Z",
+    "id": "CvF9AEe-ozc",
+    "duration": "PT5M57S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": false,
+    "projection": "rectangular",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": true,
+    "viewCount": "1242487",
+    "likeCount": "3744",
+    "favoriteCount": "0",
+    "commentCount": "0",
+    "topicCategories": [
+        "https://en.wikipedia.org/wiki/Lifestyle_(sociology)"
+    ]
+}
+Successfully inserted api results into DynamoDB  at 2024-03-04 23:07:26
+ {'ResponseMetadata': {'RequestId': 'G1D7L94DC8KL6DJ3J463EM3SH7VV4KQNSO5AEMVJF66Q9ASUAAJG', 'HTTPStatusCode': 200, 'HTTPHeaders': {'server': 'Server', 'date': 'Tue, 05 Mar 2024 07:07:26 GMT', 'content-type': 'application/x-amz-json-1.0', 'content-length': '2', 'connection': 'keep-alive', 'x-amzn-requestid': 'G1D7L94DC8KL6DJ3J463EM3SH7VV4KQNSO5AEMVJF66Q9ASUAAJG', 'x-amz-crc32': '2745614147'}, 'RetryAttempts': 0}}
+{
+    "kind": "youtube#video",
+    "etag": "7G1ijb25j4S68n-QzU4Osi4xGlg",
+    "videoId": "5Ne6ey3Qykk",
+    "publishedAt": "2019-08-14T05:02:52Z",
+    "channelId": "UCEC3oKeWCmgIeVMwSant7kw",
+    "title": "Zuowang Guided Meditation \u2014 a RARE but powerful Taoist meditation (#26)",
+    "description": "(Guided Meditation) Zuowang is the main meditation of Taoism (Daoism). It's an advanced technique that can be described as ...",
+    "url": "https://i.ytimg.com/vi/5Ne6ey3Qykk/hqdefault.jpg",
+    "width": 480,
+    "height": 360,
+    "channelTitle": "Giovanni Dienstmann",
+    "liveBroadcastContent": "none",
+    "publishTime": "2019-08-14T05:02:52Z",
+    "id": "5Ne6ey3Qykk",
+    "duration": "PT17M30S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "true",
+    "licensedContent": false,
+    "projection": "rectangular",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "viewCount": "40434",
+    "likeCount": "1057",
+    "favoriteCount": "0",
+    "commentCount": "84",
+    "topicCategories": [
+        "https://en.wikipedia.org/wiki/Lifestyle_(sociology)"
+    ]
+}
+Successfully inserted api results into DynamoDB  at 2024-03-04 23:07:28
+ {'ResponseMetadata': {'RequestId': '0ULEUO78M7J7A8OAKAQ4QSQS83VV4KQNSO5AEMVJF66Q9ASUAAJG', 'HTTPStatusCode': 200, 'HTTPHeaders': {'server': 'Server', 'date': 'Tue, 05 Mar 2024 07:07:28 GMT', 'content-type': 'application/x-amz-json-1.0', 'content-length': '2', 'connection': 'keep-alive', 'x-amzn-requestid': '0ULEUO78M7J7A8OAKAQ4QSQS83VV4KQNSO5AEMVJF66Q9ASUAAJG', 'x-amz-crc32': '2745614147'}, 'RetryAttempts': 0}}
+VideoId Z7oYJZg9nOA is already in the database
+VideoId JPxRhc2IdlA is already in the database
+{
+    "kind": "youtube#video",
+    "etag": "w9sLZ-EcTicZaqGX45oU8cR-W7E",
+    "videoId": "GNN-a8Ah0qg",
+    "publishedAt": "2022-05-07T19:34:01Z",
+    "channelId": "UCEMArgthHuEtX-04qL_8puQ",
+    "title": "How 6 Weeks Of Meditation Can Literally Change The Brain",
+    "description": "\"That's legitimate research now!\" Does your brain literally change when you have a consistent meditation practice? Or is it just ...",
+    "url": "https://i.ytimg.com/vi/GNN-a8Ah0qg/hqdefault.jpg",
+    "width": 480,
+    "height": 360,
+    "channelTitle": "Goodful",
+    "liveBroadcastContent": "none",
+    "publishTime": "2022-05-07T19:34:01Z",
+    "id": "GNN-a8Ah0qg",
+    "duration": "PT17M26S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "true",
+    "licensedContent": true,
+    "projection": "rectangular",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "viewCount": "99772",
+    "likeCount": "2918",
+    "favoriteCount": "0",
+    "commentCount": "121",
+    "topicCategories": [
+        "https://en.wikipedia.org/wiki/Health",
+        "https://en.wikipedia.org/wiki/Lifestyle_(sociology)"
+    ]
+}
+Successfully inserted api results into DynamoDB  at 2024-03-04 23:07:30
+ {'ResponseMetadata': {'RequestId': 'CRKV82HA8AD4HO2Q0UKJTLT5JBVV4KQNSO5AEMVJF66Q9ASUAAJG', 'HTTPStatusCode': 200, 'HTTPHeaders': {'server': 'Server', 'date': 'Tue, 05 Mar 2024 07:07:29 GMT', 'content-type': 'application/x-amz-json-1.0', 'content-length': '2', 'connection': 'keep-alive', 'x-amzn-requestid': 'CRKV82HA8AD4HO2Q0UKJTLT5JBVV4KQNSO5AEMVJF66Q9ASUAAJG', 'x-amz-crc32': '2745614147'}, 'RetryAttempts': 0}}
+VideoId euCACO-KtHE is already in the database
+VideoId PsKEgrx0Xwc is already in the database
+VideoId FZXVix4TNOI is already in the database
+VideoId eej5VnOypC0 is already in the database
+VideoId 70j3xyu7OGw is already in the database
+{
+    "kind": "youtube#video",
+    "etag": "mxWhIb2aQixF0GFIKGKz6MHCRoA",
+    "videoId": "gkaQm_53RUM",
+    "publishedAt": "2022-03-20T16:01:44Z",
+    "channelId": "UCdKj0VzVR0Af0wzd7-68Avw",
+    "title": "Divine Meditation",
+    "description": "Inspired by Rick Graham: https://www.rick-graham.co.uk TABS + BACKING TRACK: https://w6rst.com TONE: ...",
+    "url": "https://i.ytimg.com/vi/gkaQm_53RUM/hqdefault.jpg",
+    "width": 480,
+    "height": 360,
+    "channelTitle": "Tim Henson",
+    "liveBroadcastContent": "none",
+    "publishTime": "2022-03-20T16:01:44Z",
+    "id": "gkaQm_53RUM",
+    "duration": "PT10M17S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "projection": "rectangular",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "viewCount": "1519678",
+    "likeCount": "58407",
+    "favoriteCount": "0",
+    "commentCount": "1790",
+    "topicCategories": [
+        "https://en.wikipedia.org/wiki/Music"
+    ]
+}
+Successfully inserted api results into DynamoDB  at 2024-03-04 23:07:31
+ {'ResponseMetadata': {'RequestId': 'RG0206NED5QI9L4LRDAF9TA3L7VV4KQNSO5AEMVJF66Q9ASUAAJG', 'HTTPStatusCode': 200, 'HTTPHeaders': {'server': 'Server', 'date': 'Tue, 05 Mar 2024 07:07:32 GMT', 'content-type': 'application/x-amz-json-1.0', 'content-length': '2', 'connection': 'keep-alive', 'x-amzn-requestid': 'RG0206NED5QI9L4LRDAF9TA3L7VV4KQNSO5AEMVJF66Q9ASUAAJG', 'x-amz-crc32': '2745614147'}, 'RetryAttempts': 0}}
+VideoId y3KuRrQC85c is already in the database
+VideoId NVPrxcR_RZI is already in the database
+VideoId gjOZiK493y8 is already in the database
+VideoId Y3dqBQzHiTg is already in the database
+VideoId IPDtrQZThAs is already in the database
+VideoId ogDUM2lnN4U is already in the database
+VideoId -aBP53BcSj8 is already in the database
+VideoId jfKEAiwrgeY is already in the database
+{
+    "kind": "youtube#video",
+    "etag": "9Iq2q3VXCNygD9a_eCJ0xcQd158",
+    "videoId": "GlUyCSSF6RI",
+    "publishedAt": "2017-03-03T03:48:14Z",
+    "channelId": "UCGdPm5Aq081vVD7ih9jZf6Q",
+    "title": "\u0927\u094d\u092f\u093e\u0928 \u0915\u0947 \u0932\u093e\u092d | Analysis of all the Benefits of Meditation",
+    "description": "Meditation is a practice where an individual trains the mind or induces a mode of consciousness, either to realize some benefit or ...",
+    "url": "https://i.ytimg.com/vi/GlUyCSSF6RI/hqdefault.jpg",
+    "width": 480,
+    "height": 360,
+    "channelTitle": "FactTechz",
+    "liveBroadcastContent": "none",
+    "publishTime": "2017-03-03T03:48:14Z",
+    "id": "GlUyCSSF6RI",
+    "duration": "PT9M33S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "projection": "rectangular",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": false,
+    "madeForKids": false,
+    "viewCount": "2547448",
+    "likeCount": "102532",
+    "favoriteCount": "0",
+    "commentCount": "5016",
+    "topicCategories": [
+        "https://en.wikipedia.org/wiki/Religion"
+    ]
+}
+Successfully inserted api results into DynamoDB  at 2024-03-04 23:07:33
+ {'ResponseMetadata': {'RequestId': '200USBHT45TPUI15TOCG77QJFRVV4KQNSO5AEMVJF66Q9ASUAAJG', 'HTTPStatusCode': 200, 'HTTPHeaders': {'server': 'Server', 'date': 'Tue, 05 Mar 2024 07:07:33 GMT', 'content-type': 'application/x-amz-json-1.0', 'content-length': '2', 'connection': 'keep-alive', 'x-amzn-requestid': '200USBHT45TPUI15TOCG77QJFRVV4KQNSO5AEMVJF66Q9ASUAAJG', 'x-amz-crc32': '2745614147'}, 'RetryAttempts': 0}}
+{
+    "kind": "youtube#video",
+    "etag": "wVkccMUQN3lDJwx24HvHxkspTDI",
+    "videoId": "RE5iKMAVrs8",
+    "publishedAt": "2021-08-16T19:26:14Z",
+    "channelId": "UCCxjaQh4v8HqoQ7BvlmsDFw",
+    "title": "Guided Exercise for Anxiety and Overwhelm | Ziva Meditation",
+    "description": "Want to learn how you can join Ziva's movement to visualize, alchemize and magnetize the life (and world) you really want?",
+    "url": "https://i.ytimg.com/vi/RE5iKMAVrs8/hqdefault.jpg",
+    "width": 480,
+    "height": 360,
+    "channelTitle": "Ziva Meditation",
+    "liveBroadcastContent": "none",
+    "publishTime": "2021-08-16T19:26:14Z",
+    "id": "RE5iKMAVrs8",
+    "duration": "PT10M47S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "projection": "rectangular",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "viewCount": "47907",
+    "likeCount": "1177",
+    "favoriteCount": "0",
+    "commentCount": "22",
+    "topicCategories": [
+        "https://en.wikipedia.org/wiki/Health",
+        "https://en.wikipedia.org/wiki/Lifestyle_(sociology)"
+    ]
+}
+Successfully inserted api results into DynamoDB  at 2024-03-04 23:07:35
+ {'ResponseMetadata': {'RequestId': 'GK90BT2ECPO20UTLO2H12756HJVV4KQNSO5AEMVJF66Q9ASUAAJG', 'HTTPStatusCode': 200, 'HTTPHeaders': {'server': 'Server', 'date': 'Tue, 05 Mar 2024 07:07:35 GMT', 'content-type': 'application/x-amz-json-1.0', 'content-length': '2', 'connection': 'keep-alive', 'x-amzn-requestid': 'GK90BT2ECPO20UTLO2H12756HJVV4KQNSO5AEMVJF66Q9ASUAAJG', 'x-amz-crc32': '2745614147'}, 'RetryAttempts': 0}}
+{
+    "kind": "youtube#video",
+    "etag": "FcHwxQN9VGz1-9U-hBnXrJMu6X0",
+    "videoId": "eM5rs6jZKPE",
+    "publishedAt": "2020-05-28T10:22:17Z",
+    "channelId": "UCnhCLKRdja46hggWGR7K8hQ",
+    "title": "Meditation",
+    "description": "Provided to YouTube by DistroKid Meditation \u00b7 Cory Wong \u00b7 Jon Batiste Meditations \u2117 Cory Wong and Jon Batiste Released on: ...",
+    "url": "https://i.ytimg.com/vi/eM5rs6jZKPE/hqdefault.jpg",
+    "width": 480,
+    "height": 360,
+    "channelTitle": "Cory Wong - Topic",
+    "liveBroadcastContent": "none",
+    "publishTime": "2020-05-28T10:22:17Z",
+    "id": "eM5rs6jZKPE",
+    "duration": "PT10M5S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "allowed": [
+        "AE",
+        "AR",
+        "AS",
+        "AT",
+        "AU",
+        "AW",
+        "AZ",
+        "BA",
+        "BD",
+        "BE",
+        "BG",
+        "BH",
+        "BM",
+        "BO",
+        "BR",
+        "BY",
+        "CA",
+        "CH",
+        "CL",
+        "CO",
+        "CR",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "DO",
+        "DZ",
+        "EC",
+        "EE",
+        "EG",
+        "ES",
+        "FI",
+        "FR",
+        "GB",
+        "GE",
+        "GF",
+        "GH",
+        "GP",
+        "GR",
+        "GT",
+        "GU",
+        "HK",
+        "HN",
+        "HR",
+        "HU",
+        "ID",
+        "IE",
+        "IL",
+        "IN",
+        "IQ",
+        "IS",
+        "IT",
+        "JM",
+        "JO",
+        "JP",
+        "KE",
+        "KH",
+        "KR",
+        "KW",
+        "KY",
+        "KZ",
+        "LA",
+        "LB",
+        "LI",
+        "LK",
+        "LT",
+        "LU",
+        "LV",
+        "LY",
+        "MA",
+        "ME",
+        "MK",
+        "MP",
+        "MQ",
+        "MT",
+        "MX",
+        "MY",
+        "NC",
+        "NG",
+        "NI",
+        "NL",
+        "NO",
+        "NP",
+        "NZ",
+        "OM",
+        "PA",
+        "PE",
+        "PF",
+        "PG",
+        "PH",
+        "PK",
+        "PL",
+        "PR",
+        "PT",
+        "PY",
+        "QA",
+        "RE",
+        "RO",
+        "RS",
+        "RU",
+        "SA",
+        "SE",
+        "SG",
+        "SI",
+        "SK",
+        "SN",
+        "SV",
+        "TC",
+        "TH",
+        "TN",
+        "TR",
+        "TW",
+        "TZ",
+        "UA",
+        "UG",
+        "US",
+        "UY",
+        "VE",
+        "VI",
+        "VN",
+        "YE",
+        "YT",
+        "ZA",
+        "ZW"
+    ],
+    "projection": "rectangular",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "viewCount": "74133",
+    "likeCount": "1308",
+    "favoriteCount": "0",
+    "commentCount": "23",
+    "topicCategories": [
+        "https://en.wikipedia.org/wiki/Jazz",
+        "https://en.wikipedia.org/wiki/Music"
+    ]
+}
+Successfully inserted api results into DynamoDB  at 2024-03-04 23:07:37
+ {'ResponseMetadata': {'RequestId': '1KUCRBF0Q63LNMITU9OH5BSIDFVV4KQNSO5AEMVJF66Q9ASUAAJG', 'HTTPStatusCode': 200, 'HTTPHeaders': {'server': 'Server', 'date': 'Tue, 05 Mar 2024 07:07:37 GMT', 'content-type': 'application/x-amz-json-1.0', 'content-length': '2', 'connection': 'keep-alive', 'x-amzn-requestid': '1KUCRBF0Q63LNMITU9OH5BSIDFVV4KQNSO5AEMVJF66Q9ASUAAJG', 'x-amz-crc32': '2745614147'}, 'RetryAttempts': 0}}
+VideoId X8lhX44CPqU is already in the database
+VideoId qzR5oVoulXg is already in the database
+VideoId Ivbkx4GUzAY is already in the database
+{
+    "kind": "youtube#video",
+    "etag": "ozZxu3OKEku-R_TtvomeAGxOFr8",
+    "videoId": "aGs2Zyqq1g0",
+    "publishedAt": "2023-05-18T14:00:01Z",
+    "channelId": "UCq6EwTFMGcc1x9MH8ibCdVQ",
+    "title": "Guided Meditation New Moon May 2023 \ud83c\udf11\ud83d\udd6f\u2728",
+    "description": "Hello friends.  \u2728 This is a guided visualization meditation for the May 2023 Taurus New Moon. This meditation is designed to aid ...",
+    "url": "https://i.ytimg.com/vi/aGs2Zyqq1g0/hqdefault.jpg",
+    "width": 480,
+    "height": 360,
+    "channelTitle": "Alina Alive",
+    "liveBroadcastContent": "none",
+    "publishTime": "2023-05-18T14:00:01Z",
+    "id": "aGs2Zyqq1g0",
+    "duration": "PT17M10S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "projection": "rectangular",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "viewCount": "31356",
+    "likeCount": "1451",
+    "favoriteCount": "0",
+    "commentCount": "538",
+    "topicCategories": [
+        "https://en.wikipedia.org/wiki/Lifestyle_(sociology)"
+    ]
+}
+Successfully inserted api results into DynamoDB  at 2024-03-04 23:07:39
+ {'ResponseMetadata': {'RequestId': 'MJ3C990K5FCBUU00HAN65TDHQJVV4KQNSO5AEMVJF66Q9ASUAAJG', 'HTTPStatusCode': 200, 'HTTPHeaders': {'server': 'Server', 'date': 'Tue, 05 Mar 2024 07:07:39 GMT', 'content-type': 'application/x-amz-json-1.0', 'content-length': '2', 'connection': 'keep-alive', 'x-amzn-requestid': 'MJ3C990K5FCBUU00HAN65TDHQJVV4KQNSO5AEMVJF66Q9ASUAAJG', 'x-amz-crc32': '2745614147'}, 'RetryAttempts': 0}}
+VideoId y6mPFlPV1IE is already in the database
+VideoId hKS1SG_PZD0 is already in the database
+VideoId LQHGy9Lab50 is already in the database
+VideoId qQ4vD5FdOKM is already in the database
+VideoId JtgTvi88LGM is already in the database
+VideoId xfD4HaBBc0I is already in the database
+{
+    "kind": "youtube#video",
+    "etag": "LOGK7pXiX9IrxsWwD1fJpUu1yM0",
+    "videoId": "AImuCtIokl0",
+    "publishedAt": "2019-02-05T14:28:53Z",
+    "channelId": "UCwobzUc3z-0PrFpoRxNszXQ",
+    "title": "15 Minutes Musique de m\u00e9ditation, Musique relaxante, Musique de Soulagement du Stress, \u262f3527B",
+    "description": "15 Minutes Musique de m\u00e9ditation, Musique relaxante, Musique de Soulagement du Stress, \u262f3527B - Notre musique relaxante est parfaite pour les m\u00e9ditations Deepak Chopra, la m\u00e9ditation bouddhiste, la m\u00e9ditation zen, la m\u00e9ditation de pleine conscience et la m\u00e9ditation Eckhart Tolle. Cette musique est influenc\u00e9e par la musique japonaise de la m\u00e9ditation, la musique de m\u00e9ditation indienne, la musique tib\u00e9taine et la musique chamanique. Ses avantages comprennent le nettoyage du Chakra, l'ouverture de la Troisi\u00e8me Oeil et l'accroissement des capacit\u00e9s de la m\u00e9ditation transcendantale. \n\nYellowBrickCin\u00e9ma compose de la musique facilitant le sommeil, de la musique d\u2019\u00e9tude et de la musique de concentration, de la musique relaxante, de la musique de m\u00e9ditation (y compris de la musique tib\u00e9taine et de la musique chamanique), de la musique de gu\u00e9rison, de la musique Reiki, de la musique zen, de la musique de spa et de massage, de la musique instrumentale (y compris de la musique de piano, de guitare et de fl\u00fbte) ainsi que de la musique de yoga. Nous produisons \u00e9galement des vid\u00e9oclips avec de la musique classique de compositeurs tels que Mozart, Beethoven et Bach.\n\nNotre musique est populaire pour les raisons suivantes:\n\n\u25ba Musique de sommeil:\nLa musique de sommeil profond de YellowBrickCinema est la musique relaxante id\u00e9ale pour vous aider \u00e0 vous endormir et profiter d\u2019un sommeil profond. Notre musique facilitant le sommeil est la meilleure musique pour soulager le stress, r\u00e9duire l\u2019insomnie et encourager les r\u00eaves. Notre musique apaisante pour le sommeil utilise des ondes Delta et de la musique instrumentale douce pour vous aider \u00e0 parvenir \u00e0 un \u00e9tat  de profonde relaxation, et vous endormir. Notre musique de sommeil relaxante peut \u00eatre utilis\u00e9e comme musique de fond, musique de m\u00e9ditation, musique de relaxation, musique apaisante et musique pour le sommeil. Laissez notre musique apaisante et sereine vous aider \u00e0 profiter d\u2019un sommeil profond et relaxant.\n\nLes vid\u00e9oclips de sommeil profond de YellowBrickCinema ont \u00e9t\u00e9 sp\u00e9cialement compos\u00e9s pour d\u00e9tendre l'esprit et le corps et sont adapt\u00e9s pour les b\u00e9b\u00e9s, les enfants, les adolescents et les adultes qui ont besoin de musique lente, belle, douce et apaisante pour les aider \u00e0 s'endormir. \n\n\u25baMusique d'\u00e9tude et de concentration:\nLa musique d'\u00e9tude et de concentration de YellowBrickCinema est la musique de fond id\u00e9ale pour vous aider \u00e0 \u00e9tudier, \u00e0 vous concentrer, et \u00e0 travailler plus efficacement. Notre musique d\u2019\u00e9tude pour la concentration utilise de puissantes ondes Alpha et des battements binauraux pour stimuler la concentration et l\u2019\u00e9nergie c\u00e9r\u00e9brale et elle est \u00e9galement une musique relaxante id\u00e9ale pour soulager le stress. Cette musique d\u2019\u00e9tude et de concentration est une musique instrumentale relaxante qui vous aidera \u00e0 r\u00e9viser, \u00e0 vous concentrer et \u00e0 \u00e9tudier pour un test important ou un examen et qui vous permettra d\u2019atteindre naturellement un \u00e9tat de concentration parfait pour le travail et les \u00e9tudes.\n\n\u25ba Musique de spa et de massage:\nNotre l\u00e9g\u00e8re musique instrumentale est utile apr\u00e8s une longue journ\u00e9e de travail pour se d\u00e9tendre. La musique de spa, les sons de la nature, les sons de pluie, le piano l\u00e9ger et les instruments de musique de d\u00e9tente sont utilis\u00e9s dans ces pistes afin d'encourager la relaxation ultime. La musique de YellowBrickCinema est id\u00e9ale pour les massages de th\u00e9rapie, et notre musique vous aidera \u00e0 d\u00e9tendre votre esprit et votre corps.\n\n\u25baMusique zen et Reiki:\nNotre musique Reiki et notre musique zen sont id\u00e9ales pour des s\u00e9ances de gu\u00e9rison et pour encourager un \u00e9tat de z\u00e9nitude. Laissez les sons subtils et relaxants vous amener dans un \u00e9tat sup\u00e9rieur de conscience et vous permettre de donner et de recevoir des puissantes vibrations de Reiki.\n\n\u25baMusique de yoga:\nNotre musique apaisante est utile pour le yoga pour les d\u00e9butants, les exercices de yoga, les chants de yoga influenc\u00e9s par les chants indiens, la musique africaine et est une musique apaisante qui peut vous permettre d'aller dans une transe de yoga. \n\n\u25ba Musique instrumentale:\nLa musique instrumentale de YellowBrickCinema comprend de la musique relaxante de guitare, de piano et de flute. Notre musique instrumentale peut \u00eatre utilis\u00e9e pour la relaxation, pour \u00e9tudier, la m\u00e9ditation ou pour soulager le stress \n\n\u25ba Musique classique:\nLa musique classique de YellowBrickCinema est id\u00e9ale pour \u00e9tudier, lire, dormir (pour les adultes et les b\u00e9b\u00e9s) et pour la relaxation generale. Nous n\u2019avons compil\u00e9s que la meilleure qualit\u00e9 de musique parmi les compositeurs les plus renomm\u00e9s tels que as Mozart, Beethoven, Bach, Vivaldi, Debussy, Brahms, Handel, Chopin, Schubert, Haydn, Dvorak, Schumann, Tchaikovsky et bien d\u2019autres encore. \n\n#musiquedem\u00e9ditation\n#musiquetib\u00e9taine\n#musiquerelaxante\n#musiquechamanique\n#musiquedegu\u00e9rison",
+    "url": "https://i.ytimg.com/vi/AImuCtIokl0/hqdefault.jpg",
+    "width": 480,
+    "height": 360,
+    "channelTitle": "Yellow Brick Cinema - Relaxing Music",
+    "liveBroadcastContent": "none",
+    "publishTime": "2019-02-05T14:28:53Z",
+    "id": "AImuCtIokl0",
+    "duration": "PT15M1S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "projection": "rectangular",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": false,
+    "madeForKids": false,
+    "viewCount": "6934374",
+    "likeCount": "45373",
+    "favoriteCount": "0",
+    "commentCount": "1052",
+    "topicCategories": [
+        "https://en.wikipedia.org/wiki/Music"
+    ]
+}
+Successfully inserted api results into DynamoDB  at 2024-03-04 23:07:41
+ {'ResponseMetadata': {'RequestId': 'UN4Q2M996IMQQQHD73RVOGI7OBVV4KQNSO5AEMVJF66Q9ASUAAJG', 'HTTPStatusCode': 200, 'HTTPHeaders': {'server': 'Server', 'date': 'Tue, 05 Mar 2024 07:07:41 GMT', 'content-type': 'application/x-amz-json-1.0', 'content-length': '2', 'connection': 'keep-alive', 'x-amzn-requestid': 'UN4Q2M996IMQQQHD73RVOGI7OBVV4KQNSO5AEMVJF66Q9ASUAAJG', 'x-amz-crc32': '2745614147'}, 'RetryAttempts': 0}}
+VideoId zB6DA3UAkPQ is already in the database
+VideoId -KTD8SKa9j8 is already in the database
+VideoId 2eQ2FqCGDzw is already in the database
+VideoId byk3fgdr0WU is already in the database
+{
+    "kind": "youtube#video",
+    "etag": "DDuEP6T-YQMxkyPxLvbmMI7N3qE",
+    "videoId": "glA1PtK443o",
+    "publishedAt": "2021-09-14T23:00:10Z",
+    "channelId": "UCJaUaqWbSdyTklGsWnuFtMg",
+    "title": "Meditation for Weight Loss (Listen for 30 Days)",
+    "description": "Meditation for Weight Loss. 30 days of hypnosis, affirmations & guided imagery to lose weight, diet and feel healthier. If you suffer ...",
+    "url": "https://i.ytimg.com/vi/glA1PtK443o/hqdefault.jpg",
+    "width": 480,
+    "height": 360,
+    "channelTitle": "My Peace Of Mindfulness",
+    "liveBroadcastContent": "none",
+    "publishTime": "2021-09-14T23:00:10Z",
+    "id": "glA1PtK443o",
+    "duration": "PT10M36S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "projection": "rectangular",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "viewCount": "234536",
+    "likeCount": "3757",
+    "favoriteCount": "0",
+    "commentCount": "150",
+    "topicCategories": [
+        "https://en.wikipedia.org/wiki/Health",
+        "https://en.wikipedia.org/wiki/Lifestyle_(sociology)",
+        "https://en.wikipedia.org/wiki/Physical_fitness"
+    ],
+    "actualStartTime": "2021-09-14T23:00:10Z",
+    "actualEndTime": "2021-09-14T23:12:42Z",
+    "scheduledStartTime": "2021-09-14T23:00:00Z"
+}

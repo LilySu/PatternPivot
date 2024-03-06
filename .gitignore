@@ -1,3 +1,9 @@
+client_secret.json
+
+*.wav
+*.mp3
+*.mp4
+
 
 # ignore everything in the following folders
 subtitles/*

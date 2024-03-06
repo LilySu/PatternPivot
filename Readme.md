@@ -19,19 +19,35 @@ The architecture of PatternPivot is the culmination of API integrations, LLM's, 
 - The vector database used is the open source version of Milvus Local server in Docker. Embedding conversion are designed to be limited to only a select corpus of transcripts as needed by topic stored locally in the server spun up in localhost by the Milvus docker container. 
 - Chunking and retrieval augmented generation (RAG) are achieved using LangChain.
 - New video transcripts are refined through iterative LLM prompting.
-- LLM embeddings are using HuggingFace-hosted "WhereIsAI/UAE-Large-V1" and/or "llmrails/ember-v1" 
-- Embeddings retrieval are using either nearest neighbors or cosine similarity.
+- LLM embeddings are using HuggingFace-hosted "WhereIsAI/UAE-Large-V1" BERT Sentence Transformer  and/or "llmrails/ember-v1". Because of using a BERT base model, the dimensionality is 1024. 
+- For document search, stochastic approximate search is used for indexing. 
+- Embeddings retrieval use either nearest neighbors or cosine similarity as distance metric.
 - OpenAI API's Dall-e is prompted using screencaptures of youtube videos using selenium.
 - The only paid API usage for this initiative would be generating images using Dall-e through OpenAI's API and until DynamoDB hits over 25GB or Google Cloud JSON API hitting it's 1 TB limit. 
 - Converting transcripts to speech to create new video content will involve Coqui, an open source python module.
 
 The iterative development process was key, focusing on prototypes and refining our algorithms for heightened accuracy. The backend infrastructure is cloud-based, scalable, and designed for efficient processing and a smooth user experience.
 
-## Challenges Faced
-Our journey was marked by the challenge of planning for the processing extensive data volumes at scale.
+## Microservices
+### Microservice 1
+Youtube request responses to DynamoDB
+googleapiclient, boto3
+### Microservice 2
+Search DynamoDB for a select batch of VideoIds
+Extract the audio from the video by converting each VideoId to audio .mp4's
+Convert .mp4 audio into .wav audio file formats
+Combine batch of .wav audio into a newly generated original audio .wav
+pytube, pydub, musicGen
+### Microservice 3
+Combine audio .wav with image or video
+Save in a queue
+moviepy
+### Microservice 4
+QA videos?
+Upload videos from a folder to Youtube
+googleapiclient, google.oauth2 or third party tool
 
-## Our Proud Accomplishments
-We take pride in our AI-driven methodology that identifies and refines content segments, significantly improving the quality of content for viewers.
+
 
 ## Lessons Learned
 The PatternPivot journey has been a deep dive into the significance of text data in content creation and the transformative power of AI in the creative domain. 

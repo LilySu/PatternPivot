@@ -1,9 +1,10 @@
+from storage_videoId import videoId_list_in_dynamodb
 import boto3
 import json
 import os
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
-from YTsearch_options_cycler import SearchOptionsCycler
+from runscript_rotate_search_parameters import SearchOptionsCycler
 from datetime import datetime
 from dotenv import load_dotenv
 import time
@@ -81,7 +82,7 @@ def first_time_check_cache(options, search_cache_table_value, dynamodb):
     except Exception as e:
         print(f"Error accessing DynamoDB due to 'check_cache' malfunctioniong: {e} at {current_timestamp()}\n")
     print("--------------------------------------------------------------------------------------\n")
-    print("--------------------------------------Cache miss--------------------------------------\n")
+    print("--------------------------------------Cache hit-1st-time------------------------------\n")
     print("--------------------------------------------------------------------------------------\n")
     return {'Item': {'Timestamp': '2024-02-28 15:03:32', 'CacheKey': '{"ORDER": "relevance", "PUBLISHED_AFTER": "2010-01-01T00:00:00Z", "PUBLISHED_BEFORE": "2024-12-31T23:59:59Z", "RELEVANCE_LANGUAGE": "en", "SEARCH_QUERY": "affirmation", "VIDEO_DURATION": "medium"}'}, 'ResponseMetadata': {'RequestId': 'QJN027G2KSUGOH95GUQH2G70UNVV4KQNSO5AEMVJF66Q9ASUAAJG', 'HTTPStatusCode': 200, 'HTTPHeaders': {'server': 'Server', 'date': 'Thu, 29 Feb 2024 06:23:28 GMT', 'content-type': 'application/x-amz-json-1.0', 'content-length': '290', 'connection': 'keep-alive', 'x-amzn-requestid': 'QJN027G2KSUGOH95GUQH2G70UNVV4KQNSO5AEMVJF66Q9ASUAAJG', 'x-amz-crc32': '3681715306'}, 'RetryAttempts': 0}}
 
@@ -100,11 +101,12 @@ def check_cache(dynamodb, search_cache_table_value, full_youtube_cycled_options_
             }
         )
         if 'Item' in response:
-            print(f"Cache hit.\nThe following parameters have already been searched for the past:\n{full_youtube_cycled_options_dict}")
+            print("--------------------------------------Cache hit---------------------------------------\n")
+            print(f"The following parameters have already been searched for the past:\n{full_youtube_cycled_options_dict}")
             return response
     except Exception as e:
         print(f"Error accessing DynamoDB due to 'check_cache' malfunctioniong: {e} at {current_timestamp()}\n")
-    print("Cache miss.\n")
+        print("--------------------------------------Cache miss--------------------------------------\n")
     return None
 
 def update_cache(dynamodb, search_cache_table_value, full_youtube_cycled_options_dict):
@@ -235,6 +237,41 @@ def flatten_dict(d):
             items.append((new_key, v))
     return dict(items)
 
+def get_video_ids_from_table(table_name, dynamodb=None):
+    """
+    Retrieves all videoIds from a specified DynamoDB table.
+
+    :param table_name: The name of the DynamoDB table.
+    :param dynamodb: The DynamoDB session object (optional).
+    :return: A list of videoIds.
+    """
+    if dynamodb is None:
+        dynamodb = boto3.resource('dynamodb', region_name=region_name)
+
+    table = dynamodb.Table(table_name)
+    unique_ids = set()
+
+    # Start the scan operation
+    response = table.scan()
+
+    # Extract unique IDs from each item
+    for item in response.get('Items', []):
+        unique_id = item.get('videoId')
+        if unique_id:
+            unique_ids.add(unique_id)
+
+    # Continue scanning if more items are available
+    while 'LastEvaluatedKey' in response:
+        response = table.scan(
+            ExclusiveStartKey=response['LastEvaluatedKey']
+        )
+        for item in response.get('Items', []):
+            unique_id = item.get('videoId')
+            if unique_id:
+                unique_ids.add(unique_id)
+
+    # Return the list of unique IDs
+    return list(unique_ids)
 
 
 def main():
@@ -243,11 +280,17 @@ def main():
     load_dotenv()
     
     # text file of youtube search terms to cycle through
-    file_path = 'meditation_search_queries.txt'
+    file_path = 'ambient_search_terms.txt'
     
     # Get environment variables
     options = get_env_variables()
     search_cache_table_value = options['SEARCH_CACHE_TABLE']
+
+    # Existing VideoId's in the database
+    global videoId_list_in_dynamodb
+    
+    # Counter keeping track of number of times a database insertion has been made in the search results table
+    search_result_db_insertions = 0
     
     # Only proceed if options were successfully retrieved
     if options:
@@ -264,35 +307,52 @@ def main():
             cycler = SearchOptionsCycler(file_path)
             
             # start with cycling through order as the search option values to rotate
-            cycler.set_cycling_attribute('ORDER')
+            cycler.set_cycling_attribute('VIDEO_DURATION') #ORDER
             # cycle for the first time
             youtube_cycled_options_dict = cycler.get_next_options()
     
             # combine the full search terms from environment variables updated with just the new values that got cycled
             full_search_term_cycled_dict = merge_dicts_return_larger(long_dict, youtube_cycled_options_dict)
-    
-            # while cache hit, cycle through youtube search options
-            while check_cache(dynamodb, search_cache_table_value, full_search_term_cycled_dict):
-                # delay 
-                time.sleep(0.8)
-                # generate new cycled options, which is a subset of what gets sent to the youtube api
-                youtube_cycled_options_dict = cycler.get_next_options()
-                # combine the full search terms from environment variables updated with just the new values that got cycled
-                full_search_term_cycled_dict = merge_dicts_return_larger(long_dict, youtube_cycled_options_dict)
-            
-            # delay 
-            time.sleep(0.8)
-            # if not a cache hit, store new search terms
-            update_cache(dynamodb, search_cache_table_value, full_search_term_cycled_dict)
-            video_list = youtube_search_all_videos(options, dynamodb)
-            # print(all_videos)
-            # # Only proceed if videos were successfully retrieved
-            for single_video_dict in video_list:
-                flattened_single_video_dict = flatten_dict(single_video_dict)
-                # print(video['id']['videoId'])
-                print(json.dumps(flattened_single_video_dict, indent=4))
-                time.sleep(1.8)
-                send_to_dynamodb(options, dynamodb, flattened_single_video_dict)
+            try:
+                # keep cycling through the entire list of search terms, varying search parameters until the Youtube API limit 
+                while True:
+                    # while cache hit, cycle through youtube search options
+                    while check_cache(dynamodb, search_cache_table_value, full_search_term_cycled_dict):
+                        # delay 
+                        time.sleep(2)
+                        # generate new cycled options, which is a subset of what gets sent to the youtube api
+                        youtube_cycled_options_dict = cycler.get_next_options()
+                        # combine the full search terms from environment variables updated with just the new values that got cycled
+                        full_search_term_cycled_dict = merge_dicts_return_larger(long_dict, youtube_cycled_options_dict)
+                    
+                    # delay 
+                    time.sleep(0.8)
+                    # if not a cache hit, store new search terms
+                    update_cache(dynamodb, search_cache_table_value, full_search_term_cycled_dict)
+                    video_list = youtube_search_all_videos(options, dynamodb)
+                    # print(all_videos)
+                    # # Only proceed if videos were successfully retrieved
+                    for single_video_dict in video_list:
+                        flattened_single_video_dict = flatten_dict(single_video_dict)
+                        # print(single_video_dict['id']['videoId'])
+                        if single_video_dict['id']['videoId'] not in videoId_list_in_dynamodb:
+                            print(json.dumps(flattened_single_video_dict, indent=4))
+                            time.sleep(1.8)
+                            send_to_dynamodb(options, dynamodb, flattened_single_video_dict)
+                            # Counter keeping track of number of times a database insertion has been made in the search results table
+                            search_result_db_insertions += 1
+                        else:
+                            print(f"VideoId {single_video_dict['id']['videoId']} is already in the database")
+                        if search_result_db_insertions >= 50:
+                            # Write the updated list back to the file
+                            with open('storage_videoId.py', 'w') as file:
+                                file.write(f'videoId_list_in_dynamodb = {videoId_list_in_dynamodb}\n')
+                    if HttpError:
+                        print("---------------------------------Youtube API Quota Reached---------------------------------\n")
+                        print("-----------------------------------Program Discontinued-----------------------------------\n")
+                        break
+            except HttpError as e:
+                print(f"An HTTP error occurred: {e.resp.status} {e.content} at {current_timestamp()}\n")
         else:
             print(f"Failed to configure boto3 from environment variables at {current_timestamp()}. Exiting...\n")
     else:
