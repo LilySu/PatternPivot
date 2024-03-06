@@ -4,6 +4,7 @@ client_secret.json
 *.mp3
 *.mp4
 
+rtdocs/*
 
 # ignore everything in the following folders
 subtitles/*
