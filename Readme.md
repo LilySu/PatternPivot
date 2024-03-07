@@ -11,7 +11,7 @@ The architecture of PatternPivot is the culmination of API integrations, LLM's, 
 
 ### Our system architecture:
 
-![Video Generation Systems Architecture Diagram](PatternPivot_Systems_Diagram.png)
+![Video Generation Systems Architecture Diagram](PatternPivotSystemsDiagramWithMicroservices.png)
 
 - The YouTube Data API v3 is used to fetch video content.
 - Taking screenshots with OpenAI's Dall-e to generate new images.
