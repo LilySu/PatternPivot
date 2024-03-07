@@ -11,7 +11,7 @@ The architecture of PatternPivot is the culmination of API integrations, LLM's, 
 
 ### Our system architecture:
 
-![Video Generation Systems Architecture Diagram](Generating_Video_Systems_Diagram.png)
+![Video Generation Systems Architecture Diagram](PatternPivot_Systems_Diagram.png)
 
 - The YouTube Data API v3 is used to fetch video content.
 - Taking screenshots with OpenAI's Dall-e to generate new images.
@@ -30,21 +30,21 @@ The iterative development process was key, focusing on prototypes and refining o
 
 ## Microservices
 ### Microservice 1
-Youtube request responses to DynamoDB
+Youtube data api request responses, just video metadata and statistics to DynamoDB
  - googleapiclient, boto3
 ### Microservice 2
-Search DynamoDB for a unique batch of VideoIds to use as a base to generate new audio
+Search DynamoDB for a unique batch of VideoIds by keyword and video duration to use as a base to be combined to generate new audio
  - Strategy can include LLM's
  - Current strategy randomly shuffles through a given list, existing videos comparing sets of videos with data stored in storage_videoId.py
-Extract the audio from the video by converting each VideoId to audio .mp4's
-Convert .mp4 audio into .wav audio file formats
-Combine batch of .wav audio into a newly generated original audio .wav
+ - Extract the audio from the video by converting each VideoId to audio .mp4's
+ - Convert .mp4 audio into .wav audio file formats
+ - Combine batch of .wav audio into a newly generated original audio .wav
  - pytube, pydub, musicGen, nest_asyncio
 ### Microservice 3
-Combine audio .wav with image or video
-Save in a queue
+Combine audio with image into a video
+ - Save in a queue
  - moviepy
 ### Microservice 4
 QA videos?
-Upload videos from a folder to Youtube
- - googleapiclient, google.oauth2 or third party tool
+Upload and publish videos onto the Youtube channel from a folder that contains a batch of finished videos in queue.
+ - googleapiclient, google.oauth2 or third party no-code tool
